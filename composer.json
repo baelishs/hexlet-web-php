@@ -2,9 +2,11 @@
     "name": "hex/web",
     "description": "study microframeworks and other things",
     "autoload": {
-        "psr-4": {
-            "Hex\\Web\\": "src/"
-        }
+      
     },
-    "require": {}
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "slim/http": "^0.4.0"
+    }
 }
