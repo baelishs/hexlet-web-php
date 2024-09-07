@@ -1,0 +1,10 @@
+{
+    "name": "hex/web",
+    "description": "study microframeworks and other things",
+    "autoload": {
+        "psr-4": {
+            "Hex\\Web\\": "src/"
+        }
+    },
+    "require": {}
+}
